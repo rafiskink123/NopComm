@@ -12,5 +12,6 @@ docker run -d infracloudio/csvserver:latest
 
 docker run -d infracloudio/csvserver:latest tail -f /dev/null
 
-# now the container is active and running and able to login to it using  " docker exec -it <container-name> /bin/sh "
+
+- now the container is active and running and able to login to it using  " docker exec -it <container-name> /bin/sh "
 
