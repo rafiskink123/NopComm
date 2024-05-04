@@ -1,4 +1,4 @@
-# \x1B[1mPart I:
+Part I:
 
 - As part of Part I execution below are the steps followed to achieve the scenario:
 
@@ -12,6 +12,4 @@ docker run -d infracloudio/csvserver:latest
 
 docker run -d infracloudio/csvserver:latest tail -f /dev/null
 
-
 - now the container is active and running and able to login to it using  " docker exec -it <container-name> /bin/sh "
-
